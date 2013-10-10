@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\firstname{廖}
+\familyname{}
+\title{}                     % 可选项、如不需要可删除本行
+\address{湖北武汉华科}{430074}            % 可选项、如不需要可删除本行
+\phone[mobile]{+86 13554469447}              % 可选项、如不需要可删除本行
+\email{liaoxl2012@gmail.com}                    % 可选项、如不需要可删除本行
+\homepage{liaoxl.github.io}                  % 可选项、如不需要可删除本行
+
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+
+\section{教育背景}
+\cventry{2012--至今}{硕士(保送)}{华中科技大学自动化学院}{图像所}{将于 2015 年毕业}{}{}
+\cventry{2008--2012}{本科}{华中科级大学电信系}{提高班}{}{}  
+
+\section{社区}
+\cventry{Blog}{\url{liaoxl.github.io}}{技术博客}{}{}{}
+\cventry{GitHub}{\url{github.com/liaoxl}}{}{}{}{}
+
+\section{项目经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\cventry{2011~至今}
+{}
+{}
+{}{}
+{}
+
+\vspace*{0.2\baselineskip}
+\cventry{2009}
+{}
+{}
+{}{}
+{}
+
+\vspace*{0.2\baselineskip}
+\cventry{2008}
+{}
+{}
+{}{}
+{}
+
+\vspace*{0.2\baselineskip}
+\cventry{2008}
+{}
+{}
+{}{}
+{}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\section{奖项}
+\cventry{2012.6}{华中科技大学2012届 优秀毕业生}{}{}{}{}
+\cventry{2011.7}{华科电信系"TI杯"电子设计大赛二等奖}{}{}{}{}
+\cventry{2011.5}{第四届文鼎创杯华中地区大学生数学建模邀请赛三等奖}{}{}{}{}
+\cventry{2011.3}{华科点团队首届“OPhone杯"移动应用大赛第一名}{}{}{}{}
+
+\section{技能}
+\cventry{英语}{CET-4 563 分 CET-6 529 分}{}{}{}{}
+\cventry{计算机}{全国计算机技术与软件专业技术资格软件设计师中级}{}{}{}{}
+
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+\clearpage\end{CJK}
+\end{document}
