@@ -1,6 +1,10 @@
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[11pt,a4paper]{moderncv}% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-\moderncvtheme[blue]{classic}                % idem
+% theme of moderncv
+\moderncvstyle{classic}                % options: 'casula', 'classic', 'oldstyle' and 'banking'
+
+% color of moderncv
+\moderncvcolor{blue}					% options: 'blue'(default), 'orange', 'green', 'red', 'purple' and 'grey'
 
 \usepackage[utf8]{inputenc}
 
@@ -12,7 +16,7 @@
 \familyname{Liao}
 \title{Curriculum Vitae}
 \address{Hubei}{430074}
-\phone{+86 13554469447}
+\phone[mobile]{+86 13554469447}
 \email{liaoxl2012@gmail.com}
 \homepage{liaoxl.github.io}
 
@@ -22,89 +26,43 @@
 \maketitle
 
 \section{Education}
-\cventry{2010--Present}{MS in System Software, Supervisor: Haibo Chen}{Software School, Fudan University}{expected 2013}{}{}
-\cventry{2006--2010}{BA in Software Engineering}{Software School, Fudan University}{}{}{}
+\cventry{2012--Present}{MS(ExemptExam) in Pattern Recognition and Intelligent System }{Automation School, Huazhong University of Science \& Technology}{expected 2015}{}{}
+\cventry{2008--2012}{BA in Electronics Engineering}{Department of Electronics and Information Engneering, Huazhong University of Science \& Technology}{}{}{}
 
 \section{Community}
-\cventry{Blog}{\url{blog.yxwang.me}}{My blog (Chinese)}{}{}{}
-\cventry{GitHub}{\url{github.com/zellux}}{}{}{}{}
+\cventry{Blog}{\url{liaoxl.github.io}}{My blog (Chinese)}{}{}{}
+\cventry{GitHub}{\url{github.com/liaoxl}}{}{}{}{}
 
 \section{Project Experience}
 %% \subsection{Research Projects}
+\renewcommand{\baselinestretch}{1.2}
 
-\cventry{2011--present}
-{Tangcha Project}
-{iOS, Ruby on Rails}
-{Startup Project}{}
-{}
-
-\vspace*{0.2\baselineskip}
-\cventry{2011--2012}
-{ReDroid}
-{Android}
+\cventry{2013}
+{Co-diffusion Image Segmentation}
+{Matlab}
 {Research Project}{}
 {}
 
 \vspace*{0.2\baselineskip}
-\cventry{2009--2011}
-{Cerberus}
-{Xen, Linux Kernel}
-{Research Project}{}
-{}
-
-\cventry{2010}
-{ForceField}
-{Python, ANTLR}
-{Independent Project}{}
-{}
-
-\vspace*{0.2\baselineskip}
-
-\cventry{2009}
-{Nexus}
-{C, Assembly}
-{Independent Project}{}
-{
-An exokernel-like operating system, based on MIT Course 6.828.
-}
-
-\vspace*{0.2\baselineskip}
-\cventry{2009}
-{Reading Progress Tracker}
-{Python, Django, Google App Engine}
-{Independent Project}{}
-{
-A web application to help user track everyday reading progress. The reading list is synced with douban.com.
-}
-
-\vspace*{0.2\baselineskip}
-\cventry{2008}
-{Koprulu}
-{C, Assembly}
-{Course Project}{}
-{
-A simple multi-tasking preemptive OS kernel, based on CMU 15-410 lab.
-}
-
-\vspace*{0.2\baselineskip}
-\cventry{2008}
-{GPA Calculator for Fudan Students}
-{Python, wxWidgets}
-{Independent Project}{}
-{}
-
-\section{Publications}
-
 \cventry{2012}
-{\textbf{Yuanxuan Wang}\textnormal{, Jincheng Han, Haibo Chen, Binyu Zang}}
-{ReDroid: Fast Malware Recovery on Smartphones with Intertwined Replay}{In IPADS Technique Report}
-{}{}{}
+{Stroke Recognition}
+{C++,MFC, Linux lib}
+{Cooperation Project}{}
+{}
+
+\vspace*{0.2\baselineskip}
+\cventry{2012}
+{Four color marker Segmentation}
+{C++,MFC}
+{Research Project}{}
+{}
+
 
 \section{Awards}
-\cventry{2012}{Most Creative Award of Morgan Stanley Summer Intern Team Project}{}{}{}{}
+\cventry{2012}{Excellent Graduate of HUST}{}{}{}{}
 
 \section{Skills}
-\cventry{English}{CET-6 593}{fluent in spoken and written English, also a TED translator}{}{}{}
-\cventry{Games}{Starcraft 2 (Master League)}{}{}{}{}
+\cventry{English}{CET-4 563 \& CET-6 529}{}{}{}{}
+\cventry{Computer}{Software Design Engineer in Nationwide Software Technology Test}{}{}{}{}
 
 \end{document}
