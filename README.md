@@ -22,8 +22,8 @@ word转pdf自然不失为一种提供pdf简历的方法，但word有很多“自
 4. 我用`pdflatex`命令编译的，好像用`xelatex`命令也可以，具体区别我也不甚清楚
 
 
-over
 
+---
 
 moderncv -- a modern curriculum vitae class
 
