@@ -1,0 +1,5 @@
+# ignore the tmp files
+
+*.log
+*.aux
+*.out
