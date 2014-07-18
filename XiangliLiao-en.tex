@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv 主题
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}                          % 选项参数是 ‘blue’ (默认)、‘orange’、‘green’、‘red’、‘purple’ 和 ‘grey’
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
+
+% 字符编码
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+\usepackage{CJKutf8}
+
+% 调整页面
+\usepackage[scale=0.89]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % 如果你希望改变日期栏的宽度
+
+% 个人信息
+\firstname{\qquad Xiangli}
+\familyname{Liao}
+\title{}                     % 可选项、如不需要可删除本行
+\address{Room244, Nanqu 2, HUST, Wuhan, China}{P.C.:430074}            % 可选项、如不需要可删除本行
+\phone[mobile]{+86 13554469447}              % 可选项、如不需要可删除本行
+\email{liaoxl2012@gmail.com}                    % 可选项、如不需要可删除本行
+\homepage{liaoxl.github.io}                  % 可选项、如不需要可删除本行
+
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}                       % 详情参阅CJK文件包
+\maketitle
+
+\section{Education}
+\cventry{2012--Present}{MS in Pattern Recognition}{School of Automation, HUST}{}{Expected 2015}{}{}
+\cventry{2008--2012}{BA in Communication Engineering}{Department of Electronics and Information Engineering, HUST}{}{}{}
+
+\section{Awards}
+\cventry{2012.6}{Excellent graduates in 2012 of HUST}{}{}{}{}
+\cventry{2011.7}{Second Prize in "TI Cup" electronic design contest of EI Department}{}{}{}{}
+\cventry{2011.5}{Third Prize in  central China of the fourth mathematical modeling invitational}{}{}{}{}
+\cventry{2011.3}{First Place in "OPhone Cup" Mobile Application Contest of \textit{Dian},HUST}{}{}{}{}
+
+\section{Publications}
+\cventry{2014.4}{\textbf{Xiangli Liao}\textnormal{,Hongbo Xu,Yicong Zhou,Kunqian Li,Wenbing Tao,Qiuju Guo,Liman Liu, Automatic image segmentation using salient key point extraction and star shape prior, In Signal Processing, Volume 105, December 2014, Pages 122–136 (SCI, IF=1.851, Source Code available on Github)} }{}{}{}{}
+
+\section{Skills}
+\cventry{English}{CET-4 563 \&\&  CET-6 529 }{}{}{}{}
+\cventry{Computer}{Software Designer in Qualification Certificate of Computer and Software Technology}{}{}{}{}
+\cventry{GitHub} {\href{https://github.com/liaoxl}{https://github.com/liaoxl}} {}{}{}{}
+
+\section{Project Experience}
+\renewcommand{\baselinestretch}{1.0}
+
+\cventry{2013--2014}
+{Automatic Object segmentation}
+{Matlab,C++}
+{Research Project}{\textbf{Major Contributor}}
+{This project aimed at automatically extracting objects from natural images. We predict the position of objects by image saliency. With AP clustering and the definition of "Star" shape, we can obtain center and constrain the shape of object. The proposed method can be expressed as energy function which can be optimized in Graphcut framework. As major contributor, this \textbf{\href{http://www.sciencedirect.com/science/article/pii/S0165168414002163}{paper}} has been published on Signal Processing magazine}
+\vspace*{0.2\baselineskip}
+
+\cventry{2013}
+{Image Cosegmentation by Co-Diffusion}
+{Matlab,C++}
+{Research Project}{\textbf{Major Contributor}}
+{Co-Diffusion segmentation aimed at mining the common objects of a given image set. The proposed algorithm was based on the heat diffusion model, which treated each image as a conduction network with k-neighbour and the image set as a metal cubic.For computing efficiency, superpixel and clustering technique are applied to accelerate the mining process. As major contributor, this \textbf{\href{http://files.cnblogs.com/moondark/XiangliLiao_CoDiffusion.pdf}{paper}} has been submitted to IEEE Trans. Multimedia}
+\vspace*{0.2\baselineskip}
+
+\cventry{2012--2013}
+{Hand-painted Recognition}
+{C++,MFC,Linux}
+{Cooperation Project}{\textbf{Design/Implementation}}
+{Hand-painted Recognition aimed at recognizing a given set of target images，each target image consists of one or more regular geometric figures (RGF). The recognition of RGF was based on its geometric parameters (Minimum convex hull/bounding rectangle, Maximum inscribed triangle/quadrilateral) integrated with a SVM classifier. Taking each RGF as a word, the "bag of words" method is applied to recognize the target images}
+\vspace*{0.2\baselineskip}
+
+\cventry{2012--2013}
+{Image Segmentation by Four-Color Relabeling}
+{C++,MFC}
+{Research Project}{\textbf{Implementation}}
+{Four-Color Relabeling segmentation (FCRS) aimed at segmenting image into multiclass automatically by MultiLayerGraph algorithm. We prove that the approximation error of MultiLayerGraph is proportional to the depth of itself. Integrated with four color theorem, we can minimize the error upper bound. }
+\vspace*{0.2\baselineskip}
+
+\cventry{2012}
+{MultiLayerGraph Optimization}
+{C++}
+{Independent Project}{\textbf{Implementation}}
+{MultiLayerGraph (MLG) aimed at optimizing the problem of multiclass classification, which can be applied to multiclass image segmentation or related energy function optimization. MLG was proposed by my tutor and implemented by me. The open source version \textbf{\href{https://github.com/liaoxl/MultiLayerGraph}{MLG}} is based on the open source \textbf{\href{http://vision.csd.uwo.ca/code/}{maxflow algorithm}}}
+
+
+\renewcommand{\baselinestretch}{1.0}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+\clearpage\end{CJK}
+\end{document}
