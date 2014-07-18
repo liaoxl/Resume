@@ -5,7 +5,7 @@
 
 word转pdf自然不失为一种提供pdf简历的方法，但word有很多“自动调整”功能，虽然有时候极大的方便了非技术用户使用，但却非常不方便自己DIY。
 
-恰好近来在写paper，在琢磨了一阵latex，这玩意跟vim差不多，你不用的话，看了再多遍manual都没用，但经常用则很容易理解。<!-- more -->
+恰好近来在写paper，在琢磨了一阵latex，这玩意跟vim差不多，你不用的话，看了再多遍manual都没用，但经常用则很容易理解。
 
 ---
 
@@ -22,6 +22,12 @@ word转pdf自然不失为一种提供pdf简历的方法，但word有很多“自
 4. 我用`pdflatex`命令编译的，好像用`xelatex`命令也可以，具体区别我也不甚清楚
 
 
+简历效果
+====
+
+[中文简历](http://files.cnblogs.com/moondark/XiangliLiao-zh.pdf)
+
+[英文简历](http://files.cnblogs.com/moondark/XiangliLiao-en.pdf)
 
 ---
 
