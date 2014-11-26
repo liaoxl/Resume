@@ -35,6 +35,7 @@
 \cventry{2008--2012}{本科}{华中科技大学电信系}{提高班}{}{}
 
 \section{奖项}
+\cventry{2014.10}{华中科技大学研究生国家奖学金}{}{}{}{}
 \cventry{2012.6}{华中科技大学2012届 优秀毕业生}{}{}{}{}
 \cventry{2011.7}{华科电信系"TI杯"电子设计大赛二等奖}{}{}{}{}
 \cventry{2011.5}{第四届文鼎创杯华中地区大学生数学建模邀请赛三等奖}{}{}{}{}
@@ -42,6 +43,12 @@
 
 \section{出版物}
 \cventry{2014.4}{\textbf{Xiangli Liao}\textnormal{,Hongbo Xu,Yicong Zhou,Kunqian Li,Wenbing Tao,Qiuju Guo,Liman Liu, Automatic image segmentation using salient key point extraction and star shape prior, In Signal Processing, Volume 105, December 2014, Pages 122–136 (SCI, IF=1.851, Source Code available on Github)} }{}{}{}{}
+\cventry{2014.9}{\textnormal{Kunqian Li, Wenbing Tao,} \textbf{Xiangli Liao}\textnormal{, Liman Liu. Automatic Shape Constraint Selection Based Object Segmentation, 10th International Conference on Energy Minimization Methods in Computer Vision and Pattern Recognition (EMMCVPR), Hong Kong, China, January 2015} }{}{}{}{}
+
+\section{科学研究}
+\cventry{2014--2017}{\textnormal{基于图像曲面流形分析及图割优化的协同图像分割}}{\textbf{国家自然科学基金}}{No.61371140}{}{}
+\cventry{2014--2016}{\textnormal{形状星形约束表达的变分图像分割}}{\textbf{中央高校项目}}{No.2014TS101
+}{}{}
 
 \section{技能}
 \cventry{英语}{CET-4 563 分 CET-6 529 分}{}{}{}{}
@@ -54,36 +61,50 @@
 \cventry{2013--2014}
 {星形形状约束的自动目标分割}
 {Matlab,C++}
-{研究项目/开源项目}{\textbf{主要贡献}}
+{研究项目/开源项目}{}
 {本研究项目旨在完成对自然图像中目标的自动分割。通过图像显著性预测目标所在的位置，采用AP聚类获取目标中心点，定义“星形”约束目标的形状，构建目标能量函数，在Graphcut优化框架中求解，从而实现了具有形状约束信息的自动目标分割。该\textbf{\href{http://www.sciencedirect.com/science/article/pii/S0165168414002163}{研究成果}}已发表在Signal Processing杂志。}
 \vspace*{0.2\baselineskip}
 
 \cventry{2013}
 {协同扩散分割}
 {Matlab,C++}
-{研究项目}{\textbf{主要贡献}}
+{研究项目}{}
 {协同扩散分割旨在挖掘图像集合中的共有目标，并完成共有目标的分割提取。该算法基于物理学的热扩散模型，将图像看成一个传导网络，用K-近邻构建传导权值图，为了减少计算量，采用超像素+聚类进行算法优化，完成对图像集合共有目标的挖掘，该\textbf{\href{http://files.cnblogs.com/moondark/XiangliLiao_CoDiffusion.pdf}{研究成果}}已投递IEEE Trans. Multimedia杂志。}
 \vspace*{0.2\baselineskip}
 
 \cventry{2012--2013}
 {手绘识别}
 {C++,MFC,Linux}
-{合作项目}{\textbf{算法设计/项目开发}}
+{合作项目}{}
 {手绘识别旨在识别一个给定集合的目标图形，其中每个目标图形由一个或多个规则的几何图形（基元图形）构成。基元图形主要通过点集的几何特征（最小凸包/最小外接矩形/最大内接三角形/最大内接四边形）之间的比例，通过支撑向量机（SVM）训练分类器进行识别，在识别基元图形的基础上，采用bag of words思想对目标图形编码，通过编码距离计算完成目标图形的识别与排序。}
 \vspace*{0.2\baselineskip}
 
 \cventry{2012--2013}
 {四色标记分割}
 {C++,MFC}
-{研究项目}{\textbf{算法实现}}
+{研究项目}{}
 {四色标记分割旨在自动完成对图像的多类分割。我们提出了针对多类标记的多层图优化算法，并证明多层图优化算法得到的误差与多层图自身的层数成正比，为了减小误差，根据四色定理，四种颜色可以完成对平面图所有区域的着色，从而可以将多层图压缩在四层，约束了图像的自动分割误差的上界。}
 \vspace*{0.2\baselineskip}
 
 \cventry{2012}
 {多层图优化算法}
 {C++}
-{独立项目/开源项目}{\textbf{算法实现}}
+{独立项目/开源项目}{}
 {多层图优化算法旨在解决多类标记问题的优化，可用于多类图像分割及相关的能量函数优化。算法由我导师提出并由我实现，算法基于双向广搜的最大流算法\textbf{\href{http://vision.csd.uwo.ca/code/}{开源库}}，并给出了已封装的\textbf{\href{https://github.com/liaoxl/MultiLayerGraph}{算法开源库}}。}
+\vspace*{0.2\baselineskip}
+
+\cventry{2011}
+{基于指定论坛的数据采集系统}
+{Java}
+{课程项目}{}
+{通过对华中科技大学白云黄鹤BBS系统的数据进行爬取，将发帖数据存在本地，并实现了简单的内容检索功能，如发帖量排序、关键词检索及作者查询等。}
+\vspace*{0.2\baselineskip}
+
+\cventry{2010}
+{SnakeWords}
+{Android}
+{独立项目/开源项目}{}
+{SnakeWords通过结合经典的贪吃蛇游戏，将其与单词记忆结合起来，实现玩游戏背单词的目的。该游戏首先让玩家选择单词范围，然后随机出10 个单词供用户记忆，并开始游戏。游戏上方提示单词的意思，而该单词的每个字母随机分布在屏幕上，玩家通过按单词字母的顺序依次吃掉字母，即可获得得分。}
 \vspace*{0.2\baselineskip}
 
 
