@@ -1,13 +1,6 @@
 使用moderncv打造个人简历
 =======
 
-本科的时候，简历是word做的，当时觉得做得还不错，也不习惯转为pdf，后面在投递简历的时候居然有时就以word的形式发过去，那时自认好像还不错，居然无知到pdf才是国际的统一标准，word存在各种版本间的问题。
-
-word转pdf自然不失为一种提供pdf简历的方法，但word有很多“自动调整”功能，虽然有时候极大的方便了非技术用户使用，但却非常不方便自己DIY。
-
-恰好近来在写paper，在琢磨了一阵latex，这玩意跟vim差不多，你不用的话，看了再多遍manual都没用，但经常用则很容易理解。
-
----
 
 用latex制作cv的想法源于这个[开源项目](https://github.com/zellux/resume)，我把它下载下来，在自己机器上安装了Texlive(系统是Fedora 17)，发现编译中文简历有问题，似乎是编码的问题。我大概看了下这位作者所使用的模板是[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv)的模板，所以下载下来自己按照模板写了，并创建了自己的[简历开源项目](https://github.com/liaoxl/Resume)
 
